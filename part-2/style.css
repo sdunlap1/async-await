@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #4CAF50; /* Green background */
+  margin: 0;
+  padding: 0;
+}
+
+#draw-card {
+  display: none;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#draw-card:hover {
+  background-color: #333;
+}
+
+#card-container {
+  margin-top: 100px;
+}
+
+#card-container img {
+  margin: 10px;
+  width: 150px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
